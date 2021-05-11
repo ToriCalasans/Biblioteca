@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body {
+    background-color: rgb(250, 221, 226);
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+
+/* ---------------------------------------*/
+
+label.alin {
+    display: inline-block;
+    width: 120px;
+}
+
+input.ali {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+
+/*----------------------------------------- */
+
+header {
+    background: linear-gradient(to right, rgb(211, 56, 42), rgb(150, 39, 29));
+}
+
+
+.carrosel-legend h5 {
+    color: royalblue! important;
+    }
+.carousel-caption p {
+    color: royalblue! important;
+    }
+
+.botao {
+    width: 200px;
+    padding: 18px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #FCC302;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#img-home {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#img-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+#Nome_botao {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#Nome-logo {
+    color: white;
+    font-size: 20pt;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.body-container {
+    min-height: 80vh;
+    background-color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
